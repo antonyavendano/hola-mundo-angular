@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'holamundo';
+  title = 'Hola Mundo!';
+  contador: number = 0;
+  contadorClicks() : void{
+    this.contador++;
+  }
 }
